@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="ExampleParserApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExampleParserApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBlock FontSize="32">Demonstrate parsing a network stream</TextBlock>
+        <TextBox x:Name="uiUri" Text="http://www.microsoft.com" />
+        <Button Content="OK" Click="OnGetUrl" />
+        <TextBlock x:Name="uiNetworkStatus" IsTextSelectionEnabled="True" TextWrapping="Wrap" MinHeight="40" Text="...Status..." />
+        <TextBlock x:Name="uiResults" IsTextSelectionEnabled="True" TextWrapping="Wrap" />
+
+    </StackPanel>
+</Page>
