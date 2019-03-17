@@ -3,3 +3,14 @@
 ################################################################################
 
 /NetworkParsers/NetworkParsers/bin/x86/Debug
+/NetworkParsers/NetworkParsers/obj
+/NetworkParsers/UnitTest/obj/x86/Debug
+/NetworkParsers/ExampleParserApp/bin
+/NetworkParsers/ExampleParserApp/obj
+/NetworkParsers/NetworkParsers/bin/x64/Debug
+/NetworkParsers/UnitTest/bin/x86/Debug
+/NetworkParsers/UnitTest/obj
+/NetworkParsers/UnitTestOLDBAD/obj/x86/Debug
+/NetworkParsers/.vs
+/.vs
+/NetworkParsers/UnitTestOLDBAD
