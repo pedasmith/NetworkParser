@@ -32,7 +32,7 @@ namespace NetworkParsers
             public bool LastLinePartial;
 
             /// <summary>
-            /// Part of the state variables
+            /// Part of the state variables. 
             /// </summary>
             public bool lastWasUnusedCRorLF;
             public byte lastChar; 

@@ -101,6 +101,7 @@
       <DependentUpon>UnitTestApp.xaml</DependentUpon>
     </Compile>
     <Compile Include="TestCRLF.cs" />
+    <Compile Include="UnitTestRoute.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="UnitTestApp.xaml">
@@ -139,6 +140,10 @@
     <ProjectReference Include="..\NetworkParsers\NetworkParsers.csproj">
       <Project>{57f26d48-e06c-4130-9501-1bf6ba7e0298}</Project>
       <Name>NetworkParsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleRoutingTable\SimpleRoutingTable.csproj">
+      <Project>{911f3936-d7de-4d67-bf3f-164be561d34f}</Project>
+      <Name>SimpleRoutingTable</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
